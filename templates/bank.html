@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laptop Price Prediction</title>
+</head>
+<style> 
+    body { 
+    background-image: url("https://img.freepik.com/free-photo/giant-building-with-sun_1127-400.jpg?w=1060&t=st=1690534317~exp=1690534917~hmac=52fa8db3487e3ae7c06dc3197bb414e4aaa2ebc4e3578bf6c25243131a7b4e31"); 
+     background-repeat:no-repeat; 
+     background-size:cover; 
+    }  </style>
+    
+<body>
+
+    <h1> Bank Customer Churn Prediction </h1>
+    <form method="POST" action="/churn">
+        
+        <br>
+        <br>
+        
+
+        <label>Credit Score:</label>
+        <input type = "text" name = "credit_score">
+        </select>
+
+        
+        <br>
+        <br>
+
+        <label>Gender:</label>
+        <label>Male:</label> <input type = "radio" name= "gender" value = "Male">
+        <label>Female:</label> <input type = "radio" name= "gender" value = "Female">
+
+        <br>
+        <br>
+
+        
+        <label>Age :</label>
+        <input type = "text" name = "age">
+        </select>
+
+        
+
+        <br>
+        <br>
+
+        
+        <label>Tenure :</label>
+        <input type = "text" name = "tenure">
+        </select>
+
+        <br>
+        <br>
+
+        
+
+        
+        <label>Balance :</label>
+        <input type = "text" name = "balance">
+        </select>
+
+        <br>
+        <br>
+
+        
+        
+        <label>Products number :</label>
+        <input type = "text" name = "products_number">
+        </select>
+
+        <br>
+        <br>
+
+       
+        
+        <label>Credit Card :</label>
+        <input type = "text" name = "credit_card">
+        </select>
+
+        <br>
+        <br>
+
+        
+
+        
+        <label>Active Member :</label>
+        <input type = "text" name = "active_member">
+        </select>
+
+        <br>
+        <br>
+
+        
+
+        
+        <label>Estimated Salary :</label>
+        <input type = "text" name = "estimated_salary">
+        </select>
+
+        <br>
+        <br>
+    
+            
+        <label>Country: </label>
+        <select name = "country">
+            <option value = "France">France</option>
+            <option value = "Germany">Germany</option>
+            <option value = "Spain">Spain</option>
+
+        </select>
+        
+        <br>
+        <br>
+
+        <input type = "submit" value="SUBMIT">
+
+        <br>
+
+        <h2><strong>Bank Customer Churn Class will be <b> {{ prediction }} </b></strong></h2>
+
+
+    </form>
+
+
+</body>
+</html>
